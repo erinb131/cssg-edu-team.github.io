@@ -1,14 +1,14 @@
 // import { Header, Footer } from "./components";
 import ReactMarkdown from "react-markdown";
-import { lesson_one } from "./data/markdown";
+import { about_info } from "./data/markdown";
 
-const App = () => {
+const App2 = () => {
   return (
     <div className="home">
       {/* <Header /> */}
 
       <div id="content">
-        <ReactMarkdown source={lesson_one} />
+        <ReactMarkdown source={about_info} />
       </div>
 
       {/* <Footer /> */}
@@ -16,4 +16,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App2;
