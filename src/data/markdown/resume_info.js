@@ -67,3 +67,4 @@ provided information for
 `;
 
 export default resume_info;
+
