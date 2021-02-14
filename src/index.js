@@ -21,17 +21,4 @@ const Index = () => (
   </div>
 );
 
-// const About = () => (
-//   <div class="main">
-//     <BrowserRouter>
-//       <Header />
-//       <div>
-//         <Route path="/about" component={App2} />
-//       </div>
-//       <Footer />
-//     </BrowserRouter>
-//   </div>
-// );
-
 ReactDOM.render(<Index />, document.getElementById("root"));
-// ReactDOM.render(<About />, document.getElementById("root2"));
