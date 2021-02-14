@@ -4,4 +4,3 @@ const lesson_one = `# WORK
 `;
 
 export default lesson_one;
-
