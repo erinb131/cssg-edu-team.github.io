@@ -13,9 +13,9 @@ const Index = () => (
   <div class="main">
     <BrowserRouter>
       <Header />
-            <Route path="/" exact component={() => <App />} />
-            <Route path="/about" exact component={() => <App2 />} />
-            <Route path="/resume" exact component={() => <App3 />} />
+            <Route path="/erinb131" exact component={() => <App />} />
+            <Route path="/erinb131/about" exact component={() => <App2 />} />
+            <Route path="/erinb131/resume" exact component={() => <App3 />} />
       <Footer />
     </BrowserRouter>
   </div>
